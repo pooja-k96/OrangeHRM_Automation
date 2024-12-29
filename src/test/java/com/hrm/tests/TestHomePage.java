@@ -13,7 +13,7 @@ import com.hrm.utils.Helper;
 public class TestHomePage {
 
 	static WebDriver driver;
-	@Test
+	@Test(description = "Verifying the Left Panel Elements")
 	public static void verifypanelelements() {
 		Helper.login();
 		HomePage home=new HomePage(MyListeners.getDriver());
